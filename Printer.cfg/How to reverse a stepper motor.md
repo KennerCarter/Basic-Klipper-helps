@@ -4,7 +4,7 @@
 
   a) Go to your printer.cfg file and open it
   b) Go to the axis that is moving in the wrong direction (CoreXY is different)
-  c) Under that header and where it says dir_pin put an ! in front of the pin location
+  c) Under that header and where it says dir_pin, put an ! in front of the pin location
   d) Example:
     i) My X axis is moving in the wrong direction
     [stepper_x]
