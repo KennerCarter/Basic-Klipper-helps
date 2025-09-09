@@ -1,6 +1,6 @@
-There are two main ways to reverse the direction of a stepper motor
+## There are two main ways to reverse the direction of a stepper motor
 
-1) In the firmware (recommended)
+### 1) In the firmware (recommended)
 
   a) Go to your printer.cfg file and open it
   b) Go to the axis that is moving in the wrong direction (CoreXY is different)
@@ -18,7 +18,7 @@ There are two main ways to reverse the direction of a stepper motor
     position_max: 235
     homing_speed: 50
 
-2) Changing the wiring
+### 2) Changing the wiring
 
   a) Either find a wiring diagram/ pinout of your control board, OR find a multimeter
   b) In a stepper motor, there are two circuits (assuming it is a four-wire motor), and we need to switch to pins that are in the same circuit
